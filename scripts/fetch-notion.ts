@@ -1,4 +1,5 @@
-// /scripts/fetch-notion.ts
+// scripts/fetch-notion.ts
+console.log("TOKEN:", process.env.NOTION_TOKEN);
 import { Client } from "@notionhq/client";
 import { NotionToMarkdown } from "notion-to-md";
 import fs from "fs";

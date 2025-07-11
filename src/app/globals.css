@@ -40,3 +40,25 @@ a {
     color-scheme: dark;
   }
 }
+
+/* notion style */
+.notion-content p {
+  margin: 1rem 0;
+}
+
+.notion-content blockquote {
+  padding-left: 1rem;
+  border-left: 4px solid #ddd;
+  color: #666;
+}
+
+.notion-content pre {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.notion-content h1, h2, h3 {
+  margin-top: 2rem;
+}
