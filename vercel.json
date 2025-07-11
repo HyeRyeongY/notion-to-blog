@@ -1,0 +1,7 @@
+{
+    "buildCommand": "npm run fetch:notion && next build",
+    "env": {
+        "NOTION_TOKEN": "@NOTION_TOKEN",
+        "NOTION_LOG_DB_ID": "@NOTION_LOG_DB_ID"
+    }
+}
